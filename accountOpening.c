@@ -1,0 +1,73 @@
+#include<stdio.h>
+#include<time.h>
+int main(){
+	char bankName[50],AccNo[20],BranchName[20],AType[10],cName[30],Gender[10],BOD[10],PAN[20],CostumerId[20],Occupation[20],Status[20],AnnualIncome[10];
+	char Nationality[20],FName[20],GuardianName[20],Address[30],Phno[10],Email[20],Education[20],MonthlyIncome[10];
+	printf("\t\t\t\t Account Opening Form For Individuals\n\n\n");
+	printf("Select the Bank(Please type)\n1.HDFC\n2.SBI\n3.ICICI\n4.Axis\n5.Kotak\n\n");
+	scanf("%s",&bankName);
+	printf("\nAccount No. : ");
+	scanf("%s",&AccNo);
+	printf("\nBranch Name: ");
+	scanf("%s",&BranchName);
+	printf("\nAccount Type\n1.Savings A/c\n2.Current A/c\n");
+	scanf("%s",&AType);
+	printf("\nFULL Name:(in CAPITAL Letters)\n");
+	scanf("%s",&cName);
+	printf("\nGender: ");
+	scanf("%s",&Gender);
+	printf("\nDate of Birth(dd/mm/yy): \n");
+	scanf("%s",&BOD);
+	printf("\nPan Card(if not avaliable, please attach AdharCard) :");
+	scanf("%s",&PAN);
+	printf("\nCostumerId:");
+	scanf("%s",&CostumerId);
+	printf("\nOccouaption(Please type):\n1.Salaried\n2.Self Employeed\n3.professional\n4.Politician\n5.Housewife\n6.Student\n7.Business\n8.Retired\n9.Stock Broker\n10.Others\n\n");
+	scanf("%s",&Occupation);
+	printf("\nStatus: ");
+	scanf("%s",&Status);
+	printf("\nAnnualIncome: ");
+	scanf("%s",&AnnualIncome);
+	printf("\nNationaity: ");
+	scanf("%s",&Nationality);
+	printf("\nFathers's/Husband's Name: ");
+	scanf("%s",&FName);
+	printf("\nGuardian Name(if Any): ");
+	scanf("%s",&GuardianName);
+	printf("\nFull Address:\n");
+	scanf("%s",&Address);
+	printf("\nPhone Number: ");
+	scanf("%s",&Phno);
+	printf("\nEmail: ");
+	scanf("%s",&Email);
+	printf("\nEducation:\n1.Non Matric\n2.HSC\n3.Graudate\n4.Post Graduate\n\n");
+	scanf("%s",&Education);
+	printf("\nMonthly Income: ");
+	scanf("%s",&MonthlyIncome);
+	
+	printf("\n\n\n\t\t\t-------------------------------Welcome to %s Bank ------------------------------- ",bankName);
+	printf("\n\t\t\tBranch :%s",BranchName);
+	printf("\n\t\t\tAccounnt No. : %s",AccNo);
+	printf("\n\t\t\tAccount Type : %s",AType);
+	printf("\n\t\t\tFULL NAME : %s",cName);
+	printf("\n\t\t\tGender : %s",Gender);
+	printf("\n\t\t\tDate Of Birth (dd/mm/yyyy) : %s",BOD);
+	printf("\n\t\t\tPhone No. : %s",Phno);
+	printf("\n\t\t\tEmail : %s",Email);
+	printf("\n\t\t\tAddress : %s",Address);
+	printf("\n\t\t\tPAN : %s",PAN);
+	printf("\n\t\t\tCustomer ID : %s",CostumerId);
+	printf("\n\t\t\tOccupation : %s",Occupation);
+	printf("\n\t\t\tStatus : %s",Status);
+	printf("\n\t\t\tAnnual Income(in Rs.) : %s",AnnualIncome);
+	printf("\n\t\t\tNationality : %s",Nationality);
+	printf("\n\t\t\tFathers's/Husband's Name : %s",FName);
+	printf("\n\n\t\t\tOTHER INFORMATION ");
+	printf("\n\t\t\tEducation : %s",Education);
+	printf("\n\t\t\tMonthly Income : %s",MonthlyIncome);
+	printf("\n\n\t\t\tFull Signature(in running handwriting)\n\n\n\n");
+	printf("\t\t\t------------------------");
+	printf("\n\t\t\tDate:");
+	printf("\n\n\n\t\t\t-------------------------------Account Successfully Created!!!!!-------------------------------");
+	
+}
